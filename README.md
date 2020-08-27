@@ -1,0 +1,1 @@
+# device-leeco-s2-mainline
