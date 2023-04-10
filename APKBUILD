@@ -1,7 +1,7 @@
 pkgname=device-leeco-s2-mainline
 pkgdesc="LeEco Le 2"
 pkgver=1.0
-pkgrel=0
+pkgrel=1
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
@@ -27,3 +27,6 @@ nonfree_firmware() {
 }
 
 
+sha512sums="
+363470dae416bf528e96b4880c3506c66162fd9be8754cae1120b43fbe33efa830e8dbb2c6541ca208e03a607496fd4e05c36150d2a47c9de4fc4631a25cf800  deviceinfo
+"

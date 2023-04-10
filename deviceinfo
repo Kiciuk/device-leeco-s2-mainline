@@ -12,6 +12,7 @@ deviceinfo_modules_initfs=""
 deviceinfo_arch="aarch64"
 
 # Device related
+deviceinfo_gpu_accelerated="true"
 deviceinfo_chassis="handset"
 deviceinfo_keyboard="false"
 deviceinfo_external_storage="true"
@@ -20,7 +21,7 @@ deviceinfo_screen_height="1920"
 
 # Bootloader related
 deviceinfo_flash_method="fastboot"
-deviceinfo_kernel_cmdline="console=null PMOS_NO_OUTPUT_REDIRECT"
+deviceinfo_kernel_cmdline="console=ttyMSM0,115200 PMOS_NO_OUTPUT_REDIRECT earlyprintk debug loglevel=7"
 deviceinfo_generate_bootimg="true"
 deviceinfo_bootimg_qcdt="false"
 deviceinfo_bootimg_dtb_second="false"
